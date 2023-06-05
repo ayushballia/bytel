@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ayushballia.github.io/bytel/static/css/main.f3f5378a.css",
-    "main.js": "/ayushballia.github.io/bytel/static/js/main.76982a54.js",
-    "static/js/787.0a58af17.chunk.js": "/ayushballia.github.io/bytel/static/js/787.0a58af17.chunk.js",
-    "static/media/hero-bg.png": "/ayushballia.github.io/bytel/static/media/hero-bg.bccc2f171166bfc5143c.png",
-    "index.html": "/ayushballia.github.io/bytel/index.html",
-    "main.f3f5378a.css.map": "/ayushballia.github.io/bytel/static/css/main.f3f5378a.css.map",
-    "main.76982a54.js.map": "/ayushballia.github.io/bytel/static/js/main.76982a54.js.map",
-    "787.0a58af17.chunk.js.map": "/ayushballia.github.io/bytel/static/js/787.0a58af17.chunk.js.map"
+    "main.css": "/bytel/static/css/main.f3f5378a.css",
+    "main.js": "/bytel/static/js/main.062f91c4.js",
+    "static/js/787.0a58af17.chunk.js": "/bytel/static/js/787.0a58af17.chunk.js",
+    "static/media/hero-bg.png": "/bytel/static/media/hero-bg.bccc2f171166bfc5143c.png",
+    "index.html": "/bytel/index.html",
+    "main.f3f5378a.css.map": "/bytel/static/css/main.f3f5378a.css.map",
+    "main.062f91c4.js.map": "/bytel/static/js/main.062f91c4.js.map",
+    "787.0a58af17.chunk.js.map": "/bytel/static/js/787.0a58af17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f5378a.css",
-    "static/js/main.76982a54.js"
+    "static/js/main.062f91c4.js"
   ]
 }
