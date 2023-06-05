@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ayushballia.github.io/bytel/static/css/main.f3f5378a.css",
+    "main.js": "/ayushballia.github.io/bytel/static/js/main.d71dc39d.js",
+    "static/js/787.0a58af17.chunk.js": "/ayushballia.github.io/bytel/static/js/787.0a58af17.chunk.js",
+    "static/media/hero-bg.png": "/ayushballia.github.io/bytel/static/media/hero-bg.bccc2f171166bfc5143c.png",
+    "index.html": "/ayushballia.github.io/bytel/index.html",
+    "main.f3f5378a.css.map": "/ayushballia.github.io/bytel/static/css/main.f3f5378a.css.map",
+    "main.d71dc39d.js.map": "/ayushballia.github.io/bytel/static/js/main.d71dc39d.js.map",
+    "787.0a58af17.chunk.js.map": "/ayushballia.github.io/bytel/static/js/787.0a58af17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3f5378a.css",
+    "static/js/main.d71dc39d.js"
+  ]
+}
