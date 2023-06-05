@@ -1,38 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+:root {
+  --mainColor: #f52323;
+  --secondaryColor: #183954;
+}
+.logo {
+  background: linear-gradient(to left, var(--mainColor) 50%, #111 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* header ============================= */
+#header {
+  background: #fff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header a {
+  font-family:"Quicksand", sans-serif;
+  color: var(--secondaryColor);
+  font-weight: 600 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header a.nav-btn_up {
+  margin-right: 1.2rem;
+}
+
+
+.btn-hero,
+.nav-btn_up,
+.nav-btn_down {
+  position: relative;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.4rem 1.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.5s;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-btn_up::before,
+.nav-btn_down::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  transition: all 0.5s;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* .nav-btn_up::before,
+.nav-btn_down::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  transition: all 0.5s;
+  z-index: -1;
+} */
+
+.nav-btn_up::before {
+  top: 97% !important;
+  background-color: var(--mainColor) !important;
+}
+.nav-btn_down::before {
+  top: -97% !important;
+  background-color: var(--secondaryColor) !important;
+}
+.nav-btn_up {
+  color: var(--mainColor) !important;
+  border: 1px solid !important;
+}
+.nav-btn_down {
+  color: var(--secondaryColor) !important;
+  border: 1px solid !important;
+}
+
+
+
+.btn-hero {
+  color: white !important;
+  border: 1px solid !important;
+  background-color: var(--mainColor) !important;
 }
