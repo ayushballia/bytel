@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bytel/static/css/main.f3f5378a.css",
-    "main.js": "/bytel/static/js/main.062f91c4.js",
+    "main.css": "/bytel/static/css/main.e3d5980f.css",
+    "main.js": "/bytel/static/js/main.93076b85.js",
     "static/js/787.0a58af17.chunk.js": "/bytel/static/js/787.0a58af17.chunk.js",
     "static/media/hero-bg.png": "/bytel/static/media/hero-bg.bccc2f171166bfc5143c.png",
     "index.html": "/bytel/index.html",
-    "main.f3f5378a.css.map": "/bytel/static/css/main.f3f5378a.css.map",
-    "main.062f91c4.js.map": "/bytel/static/js/main.062f91c4.js.map",
+    "main.e3d5980f.css.map": "/bytel/static/css/main.e3d5980f.css.map",
+    "main.93076b85.js.map": "/bytel/static/js/main.93076b85.js.map",
     "787.0a58af17.chunk.js.map": "/bytel/static/js/787.0a58af17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3f5378a.css",
-    "static/js/main.062f91c4.js"
+    "static/css/main.e3d5980f.css",
+    "static/js/main.93076b85.js"
   ]
 }
