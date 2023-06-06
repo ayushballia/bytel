@@ -135,9 +135,35 @@
 }
 
 /* Network */
+#network h4 {
+  font-family: 'Quicksand', sans-serif !important;
+  font-weight: 600;
+}
 .network-card {
   border-radius: 10px 10px 0 0 !important;
   border: none !important;
-  box-shadow: 0 2px 0 var(--mainColor), 0 -1px 1px 1px #f7f7f7 !important;
+  box-shadow: 0 4px 0 var(--mainColor) , 0 -1px 1px 1px #f7f7f7 !important;
   height: 100% !important;
+}
+
+.network-card__text {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.network-card__text p {
+  text-align: justify;
+}
+
+.limit-lines {
+  --max-lines: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: var(--max-lines);
+}
+
+.read-or-hide {
+  color: var(--mainColor);
+  text-transform: capitalize;
+  cursor: pointer;
 }

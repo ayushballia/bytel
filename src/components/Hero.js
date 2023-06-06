@@ -6,7 +6,7 @@ const Hero = () => {
         <Container>
             <Row className="align-items-center">
                 <Col lg={6}>
-                    <h1 className="display-4 fw-bold">Join Bytel now and get unlimited high-speed internet with OTT & unlimited calls</h1>
+                    <h1 className="display-4 fw-bold">Join Bytel now and get unlimited <span style={{color: "var(--mainColor)"}}> high-speed internet with OTT</span> & unlimited calls</h1>
                     <div className="d-flex gap-2 flex-wrap">
                         <a href="/" className="btn btn-hero">Apply now</a>
                         <a href="/" className="btn nav-btn_up">Explore OTT plans</a>
