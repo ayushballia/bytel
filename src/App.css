@@ -25,7 +25,7 @@
 #header a {
   font-family:"Quicksand", sans-serif;
   color: var(--secondaryColor);
-  font-weight: 600 !important;
+
 }
 
 #header a.nav-btn_up {
@@ -83,10 +83,12 @@
 .nav-btn_up {
   color: var(--mainColor) !important;
   border: 1px solid !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 .nav-btn_down {
   color: var(--secondaryColor) !important;
   border: 1px solid !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 
 
@@ -95,4 +97,47 @@
   color: white !important;
   border: 1px solid !important;
   background-color: var(--mainColor) !important;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background: #fff !important;
+  color: var(--mainColor) !important;
+}
+.nav-btn_down:hover,
+.nav-btn_down:focus {
+  background: var(--secondaryColor) !important;
+  color: #fff !important;
+}
+.nav-btn_up:hover,
+.nav-btn_up:focus {
+  background: var(--mainColor) !important;
+  color: #fff !important;
+}
+
+
+.section-subtitle {
+  color: var(--mainColor);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+.section-title {
+  text-align: center;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+    font-family:  "Quicksand", sans-serif !important;
+}
+
+/* Network */
+.network-card {
+  border-radius: 10px 10px 0 0 !important;
+  border: none !important;
+  box-shadow: 0 2px 0 var(--mainColor), 0 -1px 1px 1px #f7f7f7 !important;
+  height: 100% !important;
 }
