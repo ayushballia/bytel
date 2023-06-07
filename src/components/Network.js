@@ -10,9 +10,10 @@ const ReadMore = ({ children }) => {
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
   };
+  // const clickedCard = text.target.closest('.network-card');
   return (
     <p className="text">
-      {isReadMore ? text.slice(0, 150) : text}
+      {isReadMore ? text.slice(0, 120) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
         {isReadMore ? "...read more" : " show less"}
       </span>
