@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bytel/static/css/main.d5d3c48a.css",
-    "main.js": "/bytel/static/js/main.6ad4fa68.js",
+    "main.css": "/bytel/static/css/main.1d1225f8.css",
+    "main.js": "/bytel/static/js/main.0ecf9040.js",
     "static/js/787.0a58af17.chunk.js": "/bytel/static/js/787.0a58af17.chunk.js",
     "static/media/tv-ent2.jpg": "/bytel/static/media/tv-ent2.4298fa5d191c07601ff2.jpg",
     "static/media/hero-bg.png": "/bytel/static/media/hero-bg.bccc2f171166bfc5143c.png",
@@ -9,12 +9,12 @@
     "static/media/tv-ent.jpg": "/bytel/static/media/tv-ent.bf8b7190cbabd73cd244.jpg",
     "static/media/mobile-ent.jpg": "/bytel/static/media/mobile-ent.c3be901e71fae67dfaa8.jpg",
     "index.html": "/bytel/index.html",
-    "main.d5d3c48a.css.map": "/bytel/static/css/main.d5d3c48a.css.map",
-    "main.6ad4fa68.js.map": "/bytel/static/js/main.6ad4fa68.js.map",
+    "main.1d1225f8.css.map": "/bytel/static/css/main.1d1225f8.css.map",
+    "main.0ecf9040.js.map": "/bytel/static/js/main.0ecf9040.js.map",
     "787.0a58af17.chunk.js.map": "/bytel/static/js/787.0a58af17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5d3c48a.css",
-    "static/js/main.6ad4fa68.js"
+    "static/css/main.1d1225f8.css",
+    "static/js/main.0ecf9040.js"
   ]
 }
