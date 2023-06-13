@@ -147,7 +147,7 @@ section {
   border-radius: 10px 10px 0 0 !important;
   border: none !important;
   box-shadow: 0 4px 0 var(--mainColor) , 0 -1px 1px 1px #f7f7f7 !important;
-  height: 100% !important;
+
 }
 
 .network-card__text {
@@ -190,4 +190,32 @@ section {
   background-color: var(--mainColor) !important;
   color: white !important;
   text-transform: uppercase;
+}
+
+.splide__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+
+}
+
+.splide__slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.splide__slide p {
+ font-size: 10px;
+ margin: 0;
+}
+
+.splide__arrow {
+  display: none;
+}
+
+.splide__pagination {
+  display: none;
 }

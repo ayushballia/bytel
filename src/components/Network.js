@@ -7,7 +7,7 @@ import { useState } from "react";
 const ReadMore = ({ children }) => {
   const text = children;
   const [isReadMore, setIsReadMore] = useState(true);
-  const toggleReadMore = () => {
+  const toggleReadMore = (e) => {
     setIsReadMore(!isReadMore);
   };
   // const clickedCard = text.target.closest('.network-card');

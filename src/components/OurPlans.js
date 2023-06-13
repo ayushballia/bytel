@@ -2,6 +2,8 @@ import mobileEnt from '../images/mobile-ent.jpg';
 import tvEnt from '../images/tv-ent.jpg';
 import tvEnt1 from '../images/tv-ent1.jpg';
 import tvEnt2 from '../images/tv-ent2.jpg';
+import SwiperSlider from './SwiperSlider';
+// import Swipper from './Swipper';
 const { Container, Row, Col, Card, Image } = require("react-bootstrap");
 
 const OurPlans = () => {
@@ -21,6 +23,7 @@ const OurPlans = () => {
                                         <p>unlimited internet & calls + OTT</p>
                                         <p className='text-end'>upto 60Mbps speed</p>
                                     </div>
+                                    <SwiperSlider/>
                                     <div className="plan-card__flex">
                                         <p>Monthly rental <span className="plan-card__price">&#8377; 799</span></p>
                                         <a href='/' className='btn btn-default'>Buy now</a>
@@ -39,6 +42,7 @@ const OurPlans = () => {
                                         <p>unlimited internet & calls + OTT</p>
                                         <p className='text-end'>upto 100Mbps speed</p>
                                     </div>
+                                    <SwiperSlider/>
                                     <div className="plan-card__flex">
                                         <p>Monthly rental <span className="plan-card__price">&#8377; 799</span></p>
                                         <a href='/' className='btn btn-default'>Buy now</a>
@@ -57,6 +61,7 @@ const OurPlans = () => {
                                         <p>unlimited internet & calls + OTT</p>
                                         <p className='text-end'>upto 150Mbps speed</p>
                                     </div>
+                                    <SwiperSlider/>
                                     <div className="plan-card__flex">
                                         <p>Monthly rental <span className="plan-card__price">&#8377; 799</span></p>
                                         <a href='/' className='btn btn-default'>Buy now</a>
@@ -75,6 +80,7 @@ const OurPlans = () => {
                                         <p>unlimited internet & calls + OTT</p>
                                         <p className='text-end'>upto 250Mbps speed</p>
                                     </div>
+                                    <SwiperSlider/>
                                     <div className="plan-card__flex">
                                         <p>Monthly rental <span className="plan-card__price">&#8377; 799</span></p>
                                         <a href='/' className='btn btn-default'>Buy now</a>
